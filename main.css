@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    background-image: url(img/stars.png);
+    background-size: 128px;
+    image-rendering: pixelated;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+    font-weight: 900;
+}
+
+h1 {
+    background-image: linear-gradient(to right, rgb(0, 255, 13) , rgb(140, 0, 255));
+    text-shadow: 2px 2px 4px #695b8c;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+   font-smooth: never;
+   -webkit-font-smoothing : none;
+}
+
+p {
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
